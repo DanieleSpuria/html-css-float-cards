@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+main{
+  width: 75%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
 body{
   font-family: 'Fredoka', sans-serif;
 }
@@ -14,19 +20,12 @@ img{
   float: left;
 }
 
-.container{
-  width: 75%;
-  max-width: 1600px;
-  margin: 0 auto;
-}
-
 .card{
   margin-bottom: 50px;
   width: calc(100% / 3 - 30px);
   background-color: black;
   float: left;
   box-shadow: 0px 0px 20px 2px grey;
-  
 }
 
 .clearfix::after{
@@ -77,6 +76,7 @@ img{
   color: #63c4e4;
 }
 
-.card.center{
-  margin: 0 30px;
+.center{
+  margin-right: 30px;
+  margin-left: 30px;
 }
