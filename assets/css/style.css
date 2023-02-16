@@ -25,13 +25,15 @@ img{
   width: calc(100% / 3 - 30px);
   background-color: black;
   float: left;
+  box-shadow: 0px 0px 20px 2px grey;
+  
 }
 
-/* .clearfix::after{
+.clearfix::after{
   content: '';
   display: table;
   clear: both;
-} */
+}
 
 
 
