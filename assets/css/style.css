@@ -56,6 +56,11 @@ img{
 
 
 /* CARD */
+.card:nth-child(3n+2){
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
 .card-text{
   padding: 15px;
   color: white;
@@ -74,9 +79,4 @@ img{
   font-size: 1.1rem;
   padding-top: 10px;
   color: #63c4e4;
-}
-
-.center{
-  margin-right: 30px;
-  margin-left: 30px;
 }
