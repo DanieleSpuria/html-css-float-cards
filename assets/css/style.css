@@ -5,5 +5,44 @@
 }
 
 body{
-  
+  font-family: 'Fredoka', sans-serif;
+}
+
+.container{
+  width: 75%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+/* .clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+} */
+
+/* TEXT */
+.text{
+  text-align: center ;
+  color: #E52969;
+}
+
+.text h1{
+  font-size: 2.9rem;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.text p{
+  font-size: 1.3rem;
+  padding-bottom: 50px
+}
+
+/* CARD */
+.card{
+  margin-right: 30px;
+  margin-bottom: 50px;
+  width: calc(100% / 3 - 30px);
+  height: 95px;
+  background-color: black;
+  float: left;
 }
