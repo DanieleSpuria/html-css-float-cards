@@ -8,6 +8,12 @@ body{
   font-family: 'Fredoka', sans-serif;
 }
 
+img{
+  width: 120px;
+  margin-right: 15px;
+  float: left;
+}
+
 .container{
   width: 75%;
   max-width: 1600px;
@@ -15,7 +21,6 @@ body{
 }
 
 .card{
-  margin-right: 30px;
   margin-bottom: 50px;
   width: calc(100% / 3 - 30px);
   background-color: black;
@@ -27,6 +32,8 @@ body{
   display: table;
   clear: both;
 } */
+
+
 
 /* TEXT */
 .text{
@@ -45,13 +52,9 @@ body{
   padding-bottom: 50px
 }
 
-/* CARD */
-img{
-  width: 120px;
-  margin-right: 15px;
-  float: left;
-}
 
+
+/* CARD */
 .card-text{
   padding: 15px;
   color: white;
@@ -70,4 +73,8 @@ img{
   font-size: 1.1rem;
   padding-top: 10px;
   color: #63c4e4;
+}
+
+.card.center{
+  margin: 0 30px;
 }
