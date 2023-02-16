@@ -14,6 +14,14 @@ body{
   margin: 0 auto;
 }
 
+.card{
+  margin-right: 30px;
+  margin-bottom: 50px;
+  width: calc(100% / 3 - 30px);
+  background-color: black;
+  float: left;
+}
+
 /* .clearfix::after{
   content: '';
   display: table;
@@ -38,11 +46,28 @@ body{
 }
 
 /* CARD */
-.card{
-  margin-right: 30px;
-  margin-bottom: 50px;
-  width: calc(100% / 3 - 30px);
-  height: 95px;
-  background-color: black;
+img{
+  width: 120px;
+  margin-right: 15px;
   float: left;
+}
+
+.card-text{
+  padding: 15px;
+  color: white;
+}
+
+.card-text h3{
+  font-size: 1.3rem;
+  padding-bottom: 10px;
+}
+
+.card-text span{
+  font-size: 1.2rem;
+}
+
+.card-text p{
+  font-size: 1.1rem;
+  padding-top: 10px;
+  color: #63c4e4;
 }
